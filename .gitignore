@@ -1,3 +1,16 @@
-.env
 .fleet/
+*.log
 .fleet-deploy.log
+
+# --- Terraform / TFLint ---
+.terraform/
+.tflint.d/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+.terraformrc
+terraform.rc
+terraform.tfvars
+*.auto.tfvars
+out/
